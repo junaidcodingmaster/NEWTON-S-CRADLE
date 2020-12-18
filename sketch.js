@@ -56,7 +56,7 @@ function draw() {
 }
 
 function keyPressed() { 
-	if (keyDown("space")) 
+	if (keyDown("up")) 
 	{ Matter.Body.applyForce(MetalBall1.body,MetalBall1.body.position,{x:-40,y:50}); } 
 } 
 
